@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2 (Python 3.13.1 on win32)" generated="2025-01-24T15:30:00.733389" rpa="false" schemaversion="5">
+<suite id="s1" name="FirstTest" source="C:\Wipro\PythonProject\RobotOne\TestSuite\FirstTest.robot">
+<test id="s1-t1" name="display Variables" line="8">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${name}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-01-24T15:30:00.788619" elapsed="0.000838"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${city}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-01-24T15:30:00.789863" elapsed="0.000533"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>@{list}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-01-24T15:30:00.790737" elapsed="0.000623"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<msg time="2025-01-24T15:30:00.792143" level="FAIL">Keyword 'BuiltIn.Log To Console' expected 1 to 4 arguments, got 0.</msg>
+<arg>&amp;{dict}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="FAIL" start="2025-01-24T15:30:00.791727" elapsed="0.000510">Keyword 'BuiltIn.Log To Console' expected 1 to 4 arguments, got 0.</status>
+</kw>
+<status status="FAIL" start="2025-01-24T15:30:00.787192" elapsed="0.005489">Keyword 'BuiltIn.Log To Console' expected 1 to 4 arguments, got 0.</status>
+</test>
+<status status="FAIL" start="2025-01-24T15:30:00.735881" elapsed="0.058839"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="FirstTest" id="s1" pass="0" fail="1" skip="0">FirstTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

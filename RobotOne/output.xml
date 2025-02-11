@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2 (Python 3.13.1 on win32)" generated="2025-01-24T11:42:22.827024" rpa="false" schemaversion="5">
+<suite id="s1" name="User2" source="C:\Wipro\PythonProject\RobotOne\user2.robot">
+<test id="s1-t1" name="Testcase1" line="10">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>This is first testcase with smoke test</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-01-24T11:42:22.892516" elapsed="0.000422"/>
+</kw>
+<tag>Smoke</tag>
+<status status="PASS" start="2025-01-24T11:42:22.890929" elapsed="0.002392"/>
+</test>
+<test id="s1-t2" name="Testcase2" line="13">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>This is second testcase with Regression test</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-01-24T11:42:22.894735" elapsed="0.000414"/>
+</kw>
+<tag>Regression</tag>
+<status status="PASS" start="2025-01-24T11:42:22.894176" elapsed="0.001345"/>
+</test>
+<test id="s1-t3" name="Testcase3" line="16">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>This is third testcase with Sanity test</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-01-24T11:42:22.896978" elapsed="0.000331"/>
+</kw>
+<tag>Sanity</tag>
+<status status="PASS" start="2025-01-24T11:42:22.896327" elapsed="0.001316"/>
+</test>
+<test id="s1-t4" name="Testcase4" line="19">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>This is for fourth testcase</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-01-24T11:42:22.899006" elapsed="0.000358"/>
+</kw>
+<tag>Systemtesting</tag>
+<status status="PASS" start="2025-01-24T11:42:22.898396" elapsed="0.001341"/>
+</test>
+<status status="PASS" start="2025-01-24T11:42:22.832724" elapsed="0.068124"/>
+</suite>
+<statistics>
+<total>
+<stat pass="4" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Regression</stat>
+<stat pass="1" fail="0" skip="0">Sanity</stat>
+<stat pass="1" fail="0" skip="0">Smoke</stat>
+<stat pass="1" fail="0" skip="0">Systemtesting</stat>
+</tag>
+<suite>
+<stat name="User2" id="s1" pass="4" fail="0" skip="0">User2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
